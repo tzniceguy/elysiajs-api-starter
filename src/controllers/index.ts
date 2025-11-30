@@ -1,6 +1,3 @@
-import Elysia from 'elysia';
-import { tasksController } from './tasksController';
+import { Elysia } from "elysia"
 
-export const api = new Elysia({
-	prefix: '/api',
-}).use(tasksController);
+export const api = new Elysia()
