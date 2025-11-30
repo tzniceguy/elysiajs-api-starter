@@ -1,11 +1,11 @@
-import type { Config } from 'drizzle-kit';
+import "dotenv/config"
+import { defineConfig } from "drizzle-kit"
 
-export default {
-	schema: './src/db/schema',
-	out: './src/db/migrations',
-	driver: 'better-sqlite',
-	breakpoints: true,
+export default defineConfig({
+	out: "./drizzle",
+	schema: "./src/db/schema/*.ts",
+	dialect: "sqlite",
 	dbCredentials: {
-		url: '/Users/kevin/code/src/github/kevmok/bun-elysia-rest-api/sqlite.db',
+		url: process.env.DB_FILE_NAME!,
 	},
-} satisfies Config;
+})
