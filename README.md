@@ -1,12 +1,13 @@
 <div align="center">
 <h1>Bun Starter REST API</h1>
-  <p>This is a <a href="https://bun.sh" target="_blank">bun.sh</a> project bootstrapped with <code>bun init</code>, featuring <a href="https://orm.drizzle.team/" target="_blank"><b>Drizzle ORM</b></a> and <a href="https://elysiajs.com/" target="_blank"><b>ElysiaJS</b></a> setup. <br/> Start developing right away!</p>
+  <p>This is a <a href="https://bun.sh" target="_blank">bun.sh</a> project bootstrapped with <code>bun init</code>, featuring <a href="https://orm.drizzle.team/" target="_blank"><b>Drizzle ORM</b></a>, <a href="https://better-auth.com target="_blank"><b>Better Auth</b></a> and <a href="https://elysiajs.com/" target="_blank"><b>ElysiaJS</b></a> setup. <br/> Start developing right away!</p>
 </div>
 
 ## 📱 Packed template
 - 🍞 **Bun**
 - ⛓️ **TypeScript**
 - 💧 **Drizzle ORM**
+- Better Auth - best typescript authentication library
 - 🦊 **ElysiaJS** - ⚡️ Fastest Typescript framework
 - 🌳 **Biome** for linting, formatting, and sorting imports
 - 🐺 **Husky** pre-commit hooks
@@ -51,13 +52,6 @@ bun run db:push
 ```bash
 bun run db:studio
 ```
-
-## Roadmap
-- [ ] Add support for PostgreSQL
-- [ ] Implement JWT-cookie uthentication 
-- [ ] Add file upload functionality
-- [ ] Implement role-based access control (RBAC)
-- [ ] Add caching
 
 ## License
 This project is licensed under the MIT License.
