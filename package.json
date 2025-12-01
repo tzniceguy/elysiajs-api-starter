@@ -23,11 +23,11 @@
 	},
 	"dependencies": {
 		"@elysiajs/cookie": "^0.8.0",
-		"@tqman/nice-logger": "^1.1.1",
-		"better-auth": "^1.4.3",
+		"@elysiajs/openapi": "^1.4.11",
+		"better-auth": "^1.4.4",
 		"dotenv": "^17.2.3",
 		"drizzle-orm": "^0.44.7",
-		"elysia": "^0.7.31"
+		"elysia": "^1.4.16"
 	},
 	"lint-staged": {
 		"*.{ts,js}": "bunx biome check --write --unsafe ./src",
